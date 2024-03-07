@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p><span>P</span>J</p>
+        <ul>
+          <li class="hideonMobile"><a href="#about-me">About me</a></li>
+          <li class="hideonMobile"><a href="#projects">Projects</a></li>
+          <li class="hideonMobile"><a href="#skills">Skills</a></li>
+          <li class="hideonMobile"><a href="#contact">Contact</a></li>
+          <li id="menuButton">
+            <a href="#"><box-icon name="menu" color="#e7eaef"></box-icon></a>
+          </li>
+        </ul>
+        <ul class="sideBar">
+          <li id="closeButton">
+            <a href="#">
+              <box-icon name="window-close" color="#e7eaef"></box-icon
+            ></a>
+          </li>
+          <li id="aboutme"><a href="#about-me">About me</a></li>
+          <li id="projectlink"><a href="#projects">Projects</a></li>
+          <li id="skilllink"><a href="#skills">Skills</a></li>
+          <li id="contactlink"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- about me section -->
+      <section id="about-me">
+        <div class="about-me">
+          <p class="hello">Hello, welcome!</p>
+          <h4 class="name">I'm Peter Johnson</h4>
+          <p style="text-align: justify;">
+            I am a highly skilled and passionate web developer. My expertise
+            lies in creating responsive and user-friendly web applications that
+            deliver exceptional user experience. With a strong foundation in
+            HTML, CSS, JavaScript, React, Flask, Python, SQL/MySQL and
+            TailwindCSS. Boyond my technical skills, I am an execellent
+            communicator and good problem solver. I thrive in a fast-paced and
+            dynamic environment, where I can contribute my creativity and
+            analytical thinking to overcome challenges and drive innovation. If
+            you are looking for a web developer who can bring your vision to
+            life and elevate your mobile applications, I would love to discuss
+            how my skills and experience align with your needs.
+          </p>
+          <a
+            href="#"
+            ><button>Download CV</button></a
+          >
+        </div>
+      </section>
+      <!-- project section -->
+      <section id="projects">
+        <div class="project-sec">
+          <h2>Projects</h2>
+          <div class="project">
+            <div class="project-cont">
+              <img src="images/movie.png" alt="" />
+              <h3>Movie <span>Discovery Web App</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tenetur perspiciatis eius.
+              </p>
+              <div class="code-link">
+                <a href="#"
+                  ><button class="livedemo-button">Live Demo</button></a
+                >
+                <a
+                  href="#"
+                  ><box-icon type="logo" name="github" size="lg"></box-icon
+                ></a>
+              </div>
+            </div>
+            <div class="project-cont">
+              <img
+                src="images/react.JPG"
+                alt=""
+              />
+              <h3>Recipe <span>Web App</span></h3>
+              <p>
+                A fullstack recipe finding web app
+              </p>
+              <div class="code-link">
+                <a
+                  href="3"
+                  ><button class="livedemo-button">Live Demo</button></a
+                >
+                <a href="#"
+                  ><box-icon type="logo" name="github" size="lg"></box-icon
+                ></a>
+              </div>
+            </div>
+            <div class="project-cont">
+              <img
+                src="images/web.JPG"
+                alt=""
+              />
+              <h3>A Responsive <span>Education Website</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste.
+              </p>
+              <div class="code-link">
+                <a href="#"
+                  ><button class="livedemo-button">Live Demo</button></a
+                >
+                <a
+                  href="#"
+                  ><box-icon type="logo" name="github" size="lg"></box-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section -->
+      <section>
+        <div class="skills" id="skills">
+          <h2>Skills</h2>
+          <div class="skill">
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="html5"
+                size="86px"
+                color="#E65100"
+              ></box-icon>
+              <h5>HTML5</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="css3"
+                size="86px"
+                color="#0277BD"
+              ></box-icon>
+              <h5>CSS3</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="tailwind-css"
+                size="86px"
+                color="#387EB8"
+              ></box-icon>
+              <h5>TailwindCSS</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="javascript"
+                size="86px"
+                color="#f0DB4F"
+              ></box-icon>
+              <h5>JavaScript</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="python"
+                size="86px"
+                color="#387EB8"
+              ></box-icon>
+              <h5>Python</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="typescript"
+                size="86px"
+                color="#387EB8"
+              ></box-icon>
+              <h5>TypeScript</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="react"
+                size="86px"
+                color="#387EB8"
+              ></box-icon>
+              <h5>ReactJS</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="flask"
+                size="86px"
+                color="#ffffff"
+              ></box-icon>
+              <h5>Flask</h5>
+            </div>
+            <div class="keySkill">
+              <box-icon
+                class="boxicon"
+                type="logo"
+                name="nodejs"
+                size="86px"
+                color="#68a063"
+              ></box-icon>
+              <h5>NodeJS</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="contact" id="contact">
+        <div class="content">
+          <div class="contact-heading">
+            <h6>Contact <span>me</span></h6>
+            <p>
+              Kindly fill out this form to reach out to me if you need my
+              service
+            </p>
+          </div>
+          <div class="container">
+            <div class="contact-info">
+              <div class="box">
+                <div class="icon">
+                  <box-icon
+                    name="location-plus"
+                    type="solid"
+                    color="#eab308"
+                  ></box-icon>
+                </div>
+                <div class="text">
+                  <p>Address</p>
+                  <p>FCT, Abuja, Nigeria</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <box-icon
+                    type="solid"
+                    name="phone"
+                    color="#eab308"
+                  ></box-icon>
+                </div>
+                <div class="text">
+                  <p>Phone</p>
+                  <p id="phone-number">+2349061398993</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <box-icon name="envelope" color="#eab308"></box-icon>
+                </div>
+                <div class="text">
+                  <p>Email</p>
+                  <p>odangjohnny@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form action="" class="" id="contactForm">
+                <div class="inputField">
+                  <label for=""></label>
+                  <input
+                    id="name"
+                    type="text"
+                    class="input-field"
+                    placeholder="name"
+                    required
+                  />
+                </div>
+                <div class="inputField">
+                  <label for=""></label>
+                  <input
+                    type="email"
+                    class="input-field"
+                    placeholder="email"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for=""></label>
+                  <textarea
+                    class="text-area input-field"
+                    name=""
+                    id="message"
+                    rows="5"
+                    placeholder="message"
+                    required
+                  ></textarea>
+                </div>
+                <div>
+                  <input
+                    type="submit"
+                    value="Contact me"
+                    class="submit-button"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+      <div class="footerSec">
+        <div class="footer-sec">
+          <div class="back-to-top">
+            <a href="#"><box-icon name="up-arrow-alt"></box-icon></a>
+            <p>BACK TO TOP</p>
+          </div>
+          <div class="icons">
+            <a href="#"
+              ><box-icon type="logo" name="facebook-square"></box-icon
+            ></a>
+            <a href="mailto:odangjohnny@gmail.com"
+              ><box-icon name="envelope"></box-icon
+            ></a>
+            <a
+              href="#"
+              ><box-icon
+                type="logo"
+                name="linkedin-square"
+                color="#eab308"
+              ></box-icon
+            ></a>
+            <a href="#"
+              ><box-icon type="logo" name="twitter"></box-icon
+            ></a>
+          </div>
+          <div>
+            <p class="footer-para">&#64; Peter Johnson All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
